@@ -1,0 +1,14 @@
+[package]
+id = "modsept_14"
+name = "modsept14"
+version = "0.0.1"
+content = { type = "Mod", for_playables = ["a_foggy_scene"] }
+
+[dependencies]
+a_foggy_scene = { deployment = "4dQ7fb2oa3v9FdaroGExjT" }
+unit_schema = { deployment = "nvFy5XHnuCQECe4e7JeRK" }
+
+[messages.Input]
+description = "Describes the input state of the player."
+[messages.Input.fields]
+flying = "Bool"
